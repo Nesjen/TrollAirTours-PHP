@@ -1,49 +1,9 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Troll Air Tours</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Troll Air Tours">
-        <meta name="keywords" content="Troll,Air,Tours,Guide,aircraft,seaplane">
-        <link rel="stylesheet" type="text/css" href="style/style.css">
-        <link rel="shortcut icon" href="image/favicon.ico">
-         <script src="mobilenavigation.js"></script>
-        
-    </head>
-    <body>
-        
-        <div id="main-wrapper">
-            
-            <header>
-                <div id="left-top">
-                    <img src="image/logov2.png" alt=""/>
-                </div>
-                
-                <div id="right-top">
-                    <div id="navbutton">
-                        <span id="opennav">
-                            <a href="#navigation" onclick="toggle_visibilitydual('opennav','closenav');">
-                                <img src="image/menu.png" alt="menu button, opens navigation side bar">
-                            </a>
-                        </span>
-                        <span id="closenav">
-                               <a href="#" onclick="toggle_visibilitydual('closenav','opennav');">
-                                    <img src="image/menuclose.png" alt="menu button, closes navigation side bar">
-                               </a>
-                        </span>
-                        
-                    </div>
-                </div>
-            </header>
-            
-            <main>
-                
-                <div id="main-top">
+<div id="main-top">
                     
                     <div id="main-top-overlay">
-                        <div id ="geiranger-info" >
-                            <h2> Geiranger </h2>
+                        
+						<div id ="geiranger-info" >
+                            <h2> ABOUT!!! </h2>
                             <p> Geiranger is a small tourist village in Sunnmøre region of Møre og Romsdal county in the western part of Norway. </p> 
                             <p> It lies in Stranda Municipality at the head of the Geirangerfjorden, which is a branch of the large Storfjorden. </p> 
                             <p> The nearest city is Ålesund. Geiranger is home to some of the most spectacular scenery in the world, and has been named the best travel destination in Scandinavia by Lonely Planet. The Seven Sisters waterfall is located just west of Geiranger.</p>
@@ -71,7 +31,7 @@
                             <p>Egendefinert er en nydelig plass i Stryn kommune, jallatext atext atext </p>
                             <a href="https://no.wikipedia.org/wiki/Briksda"> More information </a>    
                         </div>
-                    
+                     
                     
                     
                     </div>
@@ -120,26 +80,3 @@
                
                     
                 </div>
-                
-               
-            </main>
-            
-            
-            
-            <div id="navigation">
-            
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="booking_step_one.html">Booking Step One</a></li>
-                    <li><a href="about.html"> About Us</a></li>
-                </ul>
-            </nav>    
-        </div>
-            
-            
-        </div>
-        
-        
-    </body>
-</html>

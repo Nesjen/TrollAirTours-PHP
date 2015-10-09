@@ -28,10 +28,9 @@ class Router {
             case "customers":
             case "addCustomer":
                 return new CustomerController();
-            // Assign new routes to controllers here
-            // TODO
-//            case "purchases":
-//                return new PurchasePage();
+
+            case "about":
+                return new AboutController();
             case "home":
             default:
                 return new HomeController();

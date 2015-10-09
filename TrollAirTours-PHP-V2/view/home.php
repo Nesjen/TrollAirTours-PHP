@@ -31,7 +31,7 @@
                             <p>Egendefinert er en nydelig plass i Stryn kommune, jallatext atext atext </p>
                             <a href="https://no.wikipedia.org/wiki/Briksda"> More information </a>    
                         </div>
-                     */
+                     
                     
                     
                     </div>
