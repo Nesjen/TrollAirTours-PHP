@@ -28,7 +28,12 @@ class Router {
             case "customers":
             case "addCustomer":
                 return new CustomerController();
-
+                
+            case "bookingOne":
+            case "bookingTwo":
+            case "bookingThree":
+                return new BookingController();
+                
             case "about":
                 return new AboutController();
             case "home":
